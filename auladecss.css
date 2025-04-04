@@ -1,0 +1,32 @@
+body{
+    font-size: 30px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+.container{
+      border: 3px solid black;
+      margin: 3px;
+      padding: 10px;
+      background-color: #96D4D4;
+      width: 120px;
+      right: 120px;
+
+      
+
+}
+
+table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background-color: #96D4D4;
+        }
