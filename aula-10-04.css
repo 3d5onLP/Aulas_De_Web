@@ -1,0 +1,77 @@
+.teste{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    display: block;
+    max-width: 500px;
+    min-width: 150px;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+ul li {
+    border: 2px solid red;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simples{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+.box-sizing{
+    display: inline-block;
+    width: 24%;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px black solid;
+    box-sizing: border-box;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+.relative{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(192, 192, 192, 0.5);
+    color: white;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 192, 0.5);
+    color: white;
+}
+
+.sticky{
+    position: sticky;
+    background-color: aqua;
+    color: white;
+    bottom: 0;
+    top: 0;
+    z-index: 2; /* cria camadas */
+
+}
